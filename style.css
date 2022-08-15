@@ -1,0 +1,107 @@
+body {
+    /*margin: 0;
+    padding: 0;*/
+    background: rgb(224, 224, 224);
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 400;
+}
+h2 {
+    margin: 0;
+    font-weight: 400;
+    display: inline; 
+}
+
+.box {
+    background: #fff;
+    width: 50rem;
+    padding: 2rem;
+    margin: 1rem auto;
+    border-radius: 1.5rem;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 40% 60%
+}
+
+.header-left{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.first-name {
+    font-weight: 400;
+    margin: 0;
+}
+
+.last-name {
+    font-weight: 50;
+    font-size: 55px;
+    margin: 0;
+}
+
+.header-right {
+    width: 100%;
+    display: grid;
+    justify-items: end;
+}
+
+.header-right p {
+    display: inline;
+}
+
+.icon {
+    color: gainsboro;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+
+}
+
+.fa-solid {
+    color: gainsboro;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.fa-brands {
+    color: gainsboro;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.grey {
+    background: rgb(133, 133, 133);
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+.achievements p {
+    font-size: 20px;
+}
+
+.achievements ul li {
+    font-size: 17px;
+}
+
+.education p {
+    font-size: 20px;
+}
+
+.objective p {
+    font-size: 20px;
+}
+
+.skills ul li {
+    font-size: 20px;
+}
+
+.certifications ul li{
+    font-size: 20px;
+}
